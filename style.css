@@ -1,0 +1,32 @@
+body {
+    background-color: #522323;
+    color: #CC5858;
+}
+
+.key {
+    width: 50px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #7A3535;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.key[data-note="C#"], .key[data-note="D#"], .key[data-note="F#"], .key[data-note="G#"], .key[data-note="A#"] {
+    background-color: black;
+    width: 40px;
+    height: 130px;
+    margin-top: -130px;
+    position: relative;
+}
+
+.drum-key {
+    width: 80px;
+    height: 30px;
+    background-color: #CC5858;
+    border: 1px solid #7A3535;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
